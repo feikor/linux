@@ -16,3 +16,8 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 
 # 查看内 存信息
  cat /proc/meminfo
+
+
+查看WEB服务器进程连接数：
+netstat -antp | grep 80 | grep ESTABLISHED -c
+
