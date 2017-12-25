@@ -36,3 +36,13 @@ http://blog.163.com/leijie131421@126/blog/static/4241114520112176194123/
 
 服务器
 https://zhuanlan.zhihu.com/p/28088863
+
+
+ yum install ncurses-devel
+./configure --enable-geoip --enable-utf8
+ yum install glib2 glib2-devel GeoIP-devel  ncurses-devel zlib zlib-devel
+ ./configure --enable-geoip --enable-utf8
+ make && make install
+ goaccess
+ ln -s /usr/local/lib/libGeoIP.so* /lib64/
+
