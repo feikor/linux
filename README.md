@@ -88,3 +88,8 @@ goaccess -f access.log -c -a
 当然也可以生成HTML报告，更为直观的查看数据。
 
 goaccess -f access.log -a > report.html
+
+
+https://linux.cn/article-5352-1.html
+
+
