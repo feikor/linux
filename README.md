@@ -21,3 +21,9 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 查看WEB服务器进程连接数：
 netstat -antp | grep 80 | grep ESTABLISHED -c
 
+http://www.laozuo.org/9107.html
+
+https://www.cnblogs.com/itfenqing/p/6194051.html?utm_source=itdadao&utm_medium=referral
+
+http://www.laozuo.org/9107.html
+
