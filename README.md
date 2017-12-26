@@ -168,3 +168,35 @@ cp：是否覆盖"test.txt"？ y
 [root@centos7 ~]# du -h test.txt 
 0    test.txt
 
+
+
+goaccess的安装和使用
+http://blog.itpub.net/21220384/viewspace-2139772/
+https://www.cnblogs.com/imweihao/p/7357484.html
+
+
+时间设置
+[root@localhost ~]# date;hwclock -r 
+2012年 10月 19日 星期五 23:39:44 CST  
+2012年10月19日 星期五 23时39分45秒  -0.317993 seconds 
+
+date -s 20121019  
+
+ntpdate time.windows.com && hwclock -w  
+
+连网更新时间，如果成功，将系统时间，写入BOIS
+
+hwclock -w 或 hwclock --systohc
+
+可以做到crontab里
+
+3、启动ntpd服务，开启后2就不能用了。
+先用ntpdate更新一下，确保时间不至于差别太大
+rpm -qa | grep ntp #查询一下可安装了
+chkconfig --list | grep ntp #看下服务情况
+chkconifg ntpd on
+service ntpd start 或/etc/init.d/ntpd start
+必要的话，设置一下/etc/ntp.conf，再把服务reload一下。
+
+
+
