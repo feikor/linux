@@ -17,6 +17,8 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 # 查看内 存信息
  cat /proc/meminfo
 
+生成日志
+$ /usr/local/bin/goaccess -f /var/log/apache2/access.log -a > report.html
 
 查看WEB服务器进程连接数：
 netstat -antp | grep 80 | grep ESTABLISHED -c
@@ -204,3 +206,4 @@ service ntpd start 或/etc/init.d/ntpd start
 日志
 https://www.cnblogs.com/cnlihao/p/7072932.html
 
+$ /usr/local/bin/goaccess -f /var/log/apache2/access.log -a > report.html
