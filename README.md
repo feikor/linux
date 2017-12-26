@@ -97,4 +97,5 @@ goaccess默认安装路径
 /usr/local/bin/goaccess
 /usr/local/bin/goaccess -f /var/log/access.log
 
-
+epel源
+https://www.cnblogs.com/imweihao/p/7357484.html
