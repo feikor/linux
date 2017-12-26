@@ -93,3 +93,8 @@ goaccess -f access.log -a > report.html
 https://linux.cn/article-5352-1.html
 
 
+goaccess默认安装路径
+/usr/local/bin/goaccess
+/usr/local/bin/goaccess -f /var/log/access.log
+
+
