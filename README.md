@@ -99,3 +99,8 @@ goaccess默认安装路径
 
 epel源
 https://www.cnblogs.com/imweihao/p/7357484.html
+
+
+   /var/log/httpd/access_log：
+   /var/log/httpd/error_log
+
