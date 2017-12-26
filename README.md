@@ -173,6 +173,8 @@ cp：是否覆盖"test.txt"？ y
 goaccess的安装和使用
 http://blog.itpub.net/21220384/viewspace-2139772/
 https://www.cnblogs.com/imweihao/p/7357484.html
+http://www.tianfeiyu.com/?p=585
+
 
 
 时间设置
@@ -199,4 +201,6 @@ service ntpd start 或/etc/init.d/ntpd start
 必要的话，设置一下/etc/ntp.conf，再把服务reload一下。
 
 
+日志
+https://www.cnblogs.com/cnlihao/p/7072932.html
 
